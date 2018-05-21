@@ -1,0 +1,8 @@
+1. Do the basic exploration of dataset either by using python or by reading dataset documentation.
+2. Do the feature selection to reduce the number of variables for EDA.
+3. Do EDA of variables selected.
+4. Partitioning of data into training and test data.
+5. Model selection.
+6. Model validation.
+7. Test run.
+8. Deployment.
