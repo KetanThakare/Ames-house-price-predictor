@@ -1,15 +1,20 @@
 1. Do the basic exploration of dataset either by using python or by reading dataset documentation.
    - get dimensions of the dataset 
    - get idea about the structure and type of variables
-2. Do the feature selection to reduce the number of variables for EDA.
-   - Using one hot encoding for converting categorical variables into numeric arrays suitable for input to sklearn feature selection methods.
-3. Do EDA of variables selected.
+2. Do the data preprocessing 
+   - Imputing of missing variables if any.
+   - Hot encoding of categorical variables.
+3. Do the feature selection to reduce the number of variables for EDA.
+   - input to sklearn feature selection methods.
+4. Do EDA of variables selected.
    - scatter plot for continous variables vs price
    - box plot or density plot for categorical variables vs. price
-4. Partitioning of data into training and test data.
-5. Model selection.
+5. Partitioning of data into training and test data.
+6. Model selection.
   - assuming linear relationship between predictors and response
-  - all models of linear regression 
-6. Model validation.
-7. Test run.
-8. Deployment.
+  - Multiple linear regression
+  - MLR with backward regression
+  - Polynomial regression
+7. Model validation.
+8. Test run.
+9. Deployment.
