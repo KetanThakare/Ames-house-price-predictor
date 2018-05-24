@@ -7,14 +7,14 @@
 3. Do the feature selection to reduce the number of variables for EDA.
    - [x] input to sklearn feature selection methods.
 4. Do EDA of variables selected.
-   - [] scatter plot for continous variables vs price
-   - [] box plot or density plot for categorical variables vs. price
+   - [ ] scatter plot for continous variables vs price
+   - [ ] box plot or density plot for categorical variables vs. price
 5. Partitioning of data into training and test data.
 6. Model selection.
   - assuming linear relationship between predictors and response
-  - [] Multiple linear regression
-  - [] MLR with backward regression
-  - [] Polynomial regression
+  - [ ] Multiple linear regression
+  - [ ] MLR with backward regression
+  - [ ] Polynomial regression
 7. Model validation.
 8. Test run.
 9. Deployment.
