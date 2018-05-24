@@ -15,11 +15,10 @@
 
 5. Partitioning of data into training and test data.
 
-6. Model selection.
-   assuming linear relationship between predictors and response
-  - [ ] Multiple linear regression
-  - [ ] MLR with backward regression
-  - [ ] Polynomial regression
+6. Model selection 
+   - [ ] Multiple linear regression
+   - [ ] MLR with backward regression
+   - [ ] Polynomial regression
 
 7. Model validation.
 
