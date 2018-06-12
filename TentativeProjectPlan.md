@@ -15,11 +15,12 @@
 
 5. Partitioning of data into training and test data.
 
-6. Model selection 
+6. Modelling and Evaluation
    - [ ] Multiple linear regression
-   - [ ] MLR with backward regression
-   - [ ] Polynomial regression
-
+   - [ ] Ridge Regression
+   - [ ] Lasso Regression
+   - [ ] Elastic Net
+   
 7. Model validation.
 
 8. Test run.
