@@ -1,0 +1,44 @@
+
+Regression Diagnosis
+
+#checking for multicollinearity
+
+for i in np.arange(0,len(independent_variables)):
+	vif = [variance_inflation_factor(X[independent_variables].values, ix)
+	for ix in range(X[independent_variables].shape[1])]
+	maxloc = vif.index(max(vif))
+	if max(vif) > thresh:
+		print "vif :", vif
+print('dropping \'' + X[independent_variables].columns[maxloc] + '\'
+at index: ' + str(maxloc))
+del independent_variables[maxloc]
+else:
+	break
+
+
+
+
+# lets plot the normalized residual vs leverage
+from statsmodels.graphics.regressionplots import plot_leverage_resid2
+fig, ax = plt.subplots(figsize=(8,6))
+fig = plot_leverage_resid2(lm, ax = ax)
+
+# Find outliers 
+# Bonferroni outlier test
+test = lm.outlier_test()
+print 'Bad data points (bonf(p) < 0.05):'
+print test[test.icol(2) < 0.05]
+
+# plot to check homoscedasticity
+plt.plot(lm.resid,'o')
+plt.title('Residual Plot')
+plt.ylabel('Residual')
+plt.xlabel('Observation Numbers')
+plt.show()
+plt.hist(lm.resid, normed=True
+
+#linerity plots for linearity checks
+fig = plt.figure(figsize=(10,15))
+import statsmodels.api as sm
+fig = sm.graphics.plot_partregress_grid(lm, fig=fig)
+	
