@@ -16,13 +16,15 @@
 5. Partitioning of data into training and test data.
 
 6. Modelling and Evaluation
-   - [ ] Multiple linear regression
-   - [ ] Ridge Regression
-   - [ ] Lasso Regression
-   - [ ] Elastic Net
+   - [x] Multiple linear regression
+   - [x] Ridge Regression
+   - [x] Lasso Regression
+   - [x] Elastic Net
    
-7. Model validation.
+7. Seek alternative model Eg. SVM,RandomForest etc if results of Regression modelss are not satisfactory. 
 
-8. Test run.
+8. Model validation.
 
-9. Deployment.
+9. Test run.
+
+10. Deployment.
