@@ -1,0 +1,35 @@
+#Import Library
+
+from sklearn import tree
+
+model = tree.DecisionTreeRegressor(criterion = 'mse/mae/friedman_mse, splitter = 'best/random, max_depth=None, min_samples_split=10, min_samples_leaf=5, min_weight_fraction_leaf=0.0, max_features=30, random_state=None, max_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, presort=False) for regression
+
+# Train the model using the training sets and check score
+model_fit = model.fit(X_train, y_train)
+model.score(X_train, y_train)
+
+#Predict Output
+y_test_pred = model.predict(X_test)
+
+
+#Attributes
+feature_importances_
+max_features_
+n_features_
+n_outputs_
+tree_
+
+#Methods
+apply()
+descision_path
+fit(X,y)
+get_params(model)
+predict(Xtest)
+score(X,y)#returns the r2 score
+set_params(#setting the parameters)
+
+#cross validation
+dt_scores = cross_val_score(model_fit, X_train, y_train, cv = 5)
+print("mean cross validation score: {}".format(np.mean(dt_scores)))
+print("score without cv: {}".format(model_fit.score(X_train, y_train)))
+
