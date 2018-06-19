@@ -5,3 +5,7 @@ SVR(C=1.0, cache_size=200, coef0=0.0, degree=3, epsilon=0.2, gamma='auto',
 clf.predict(X_test)
 clf.score(X_train,y_train)
 
+Random Forest Regressor
+from sklearn.ensemble import RandomForestRegressor
+regr = RandomForestRegressor(max_depth=2, random_state=0)
+regr.fit(X_train, y_train)
