@@ -2,7 +2,7 @@
 ### Why have I done this project?
 The project is done to show my proficiency in Regression modelling. I did Python and Machine Learning course on Kaggle and that has been inspiration for this Project.<br> </br>
 ### What is this project?
-#### Project shows proficiency in doing preliminary data wrangling, exploratory data analysis and model creation. <br></br>
+#### This regression modelling project shows proficiency in doing preliminary data wrangling, exploratory data analysis, feature selection, model creation, model selection and model optimization. 
 ### How the Project has been done?  
 1. I have used Ames housing dataset available in csv format on [kaggle](https://www.kaggle.com/c/ames-housing-data/data). 
 2. I have begun by doing the [preprocessing](Preprocessing.ipynb) of the data.
